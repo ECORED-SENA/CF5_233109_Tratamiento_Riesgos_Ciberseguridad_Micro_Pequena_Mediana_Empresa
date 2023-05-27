@@ -1,14 +1,39 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 13s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 11%
+    right: 12%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 90%
+    right: 95%
+  &-4
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 15%
+    right: 70%
+  &-5
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 90%
+
+
+@keyframes float2
+	0%
+		transform: rotate(0deg) translateX(-100px) rotate(0deg)
+
+
+	100%
+		transform: rotate(180deg) translateX(-60px) rotate(-180deg)
+
 
 
 @keyframes float1
@@ -17,3 +42,354 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__row
+  .col-xxl-5.banner-principal__info
+    flex: 0 0 auto
+    width: 58.3333333333%
+
+
+.acordion
+  .tarjeta--gris
+    background-color: #F6F6F6  !important
+    &.acordion__activo
+      background-color: #E3F5F8 !important
+
+
+.bg
+  &-c1
+    background: #E6E1FB
+    background-image: url(../assets/curso/bg/bg-c1.svg)
+    background-position: left top
+    background-repeat: no-repeat
+    border-radius: 20px
+    height: 100%
+  &-c2
+    background: #DAF1F5
+    background-image: url(../assets/curso/bg/bg-c2.svg)
+    background-position: top right
+    background-repeat: no-repeat
+    background-size: cover
+
+  &-c3
+    background-image: url(../assets/curso/bg/bg-c3.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom left
+  &-c4
+    background-image: url(../assets/curso/bg/bg-c4.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top right
+
+ul.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.jumbotron
+  background-color: #DAF1F5
+
+.jumbotron-2
+  background-image: url("../assets/curso/images/tema4/back_tarjeta.svg") !important
+  background-repeat: no-repeat
+  background-size: 100%
+  width: 355px
+  @media (max-width: 412px)
+    background-size: contain !important
+    margin-left: -84px !important
+    width: 390px !important
+    margin-left: -70px !important
+    font-size: 14px
+  @media (max-width: $bp-max-md)
+    background-size: contain
+    margin-left: 5px
+    width: 405px !important
+
+.jumbotron-3
+  background-color: #E8E8E8
+  @media (max-width: $bp-max-md)
+    width: 645px
+  @media (max-width: 412px)
+    width: 385px
+
+.fondo-1
+  background-image: url("../assets/curso/images/tema1/back_2.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+
+
+.fondo-2
+  background-image: url("../assets/curso/images/tema1/back_tarjeta.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-3
+  background-image: url("../assets/curso/images/tema2/back_fig_2.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+
+
+.fondo-4
+  background-image: url("../assets/curso/images/tema3/back.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-5
+  background-image: url("../assets/curso/images/tema5/back.svg") !important
+  background-repeat: no-repeat
+  background-size: contain
+
+.fondo-6
+  background-image: url("../assets/curso/images/tema1/back_fig_1.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 412px)
+    margin-left: -14px !important
+
+.fondo-7
+  background-image: url("../assets/curso/images/tema2/back_1.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+
+
+.bg_grad-01
+  background-image: url('../assets/curso/images/tema1/back_slyder.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 992px)
+    width: 100%
+    margin-left: -24px
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: 5px
+  @media (max-width: 576px)
+    width: 100%
+    margin-left: 2px
+  @media (max-width: 412px)
+    margin-left: -2px !important
+  @media (max-width: 390px)
+    margin-left: -5px !important
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  @media (max-width: $bp-max-md)
+    transform: translateY(20%) rotate(90deg) !important
+    left: -10px !important
+    margin-top: 40px !important
+  @media (min-width: $bp-min-lg)
+    transform: translateY(26%) rotate(90deg) !important
+    left: -10px !important
+
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  @media (max-width: $bp-max-md)
+    transform: translateY(20%) rotate(-90deg) !important
+    right: -15px !important
+    margin-top: 40px !important
+  @media (min-width: $bp-min-lg)
+    transform: translateY(26%) rotate(270deg) !important
+    left: -10px !important
+
+.slyder-a__bullets
+  @media (max-width: $bp-max-md)
+    display: flex
+    z-index: 10000
+    top: 26px
+  @media (min-width: $bp-min-lg)
+    display: flex
+    z-index: 10000
+    top: 26px
+
+
+.slyder-a__bullets__item--active
+    background-color: #40327B !important
+    border: 0
+
+.slyder-a__bullets__item
+    background-color: #A193DB
+    border: 0
+
+.rectangle_02
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 40%
+    left: -1%
+    transform: translateY(-50%)
+    width: 30%
+    height: 60%
+    margin-left: 137px
+  @media (max-width: $bp-max-md)
+    background-color: none !important
+
+.rectangle_03
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 20%
+    left: -10%
+    transform: translateY(-50%)
+    width: 30%
+    height: 60%
+    background-color: #CFDBD2
+    margin-left: 137px
+  @media (max-width: $bp-max-md)
+    background-color: none !important
+
+.c-check
+  color: #0540B7
+
+.vineta
+  &::before
+    content: url(../assets/curso/images/tema1/check-circle.svg)
+
+.vineta-1
+  &::before
+    content: url(../assets/curso/images/tema2/vineta.svg)
+
+.vineta-2
+  &::before
+    content: url(../assets/curso/images/tema4/vineta.svg)
+
+.bg.title
+  background-image: url('../assets/curso/images/tema2/ico_text.svg')
+  background-repeat: no-repeat
+  background-size: contain
+  @media (max-width: $bp-max-md)
+    background-size: 340px
+    height: 50px
+    background-repeat: no-repeat
+    margin-bottom: 20px !important
+
+.bg.title-1
+  background-image: url('../assets/curso/images/tema2/ico_text-1.svg')
+  background-repeat: no-repeat
+  background-size: contain
+
+.m-left
+  margin-left: -270px
+  margin-top: 5px
+  @media (max-width: $bp-max-md)
+    margin-left: 20px
+    margin-top: 5px !important
+
+.m-top
+  margin-top: -2px !important
+  width: 1245px
+  margin-left: -10px
+
+
+.m-top-1
+  margin-top: -35px !important
+  margin-left: 92px !important
+  @media (max-width: $bp-max-md)
+    margin-left: 25px !important
+  @media (max-width: 412px)
+    margin-left: -1px !important
+
+.m-top-2
+  margin-top: -35px !important
+
+.onTop
+  position: relative
+  z-index: 10
+
+// CUSTOM BOX - LEFT
+.custom_box_left
+  position: relative
+  padding: 2.5rem 1.5rem
+  background-image: url('../assets/curso/images/tema5/back_1.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  p
+    position: relative
+  &:before
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 50%
+    height: 100%
+    background-color: #E3F5F8
+    z-index: 0
+    @media (max-width: $bp-max-md)
+      margin-left: -30px
+
+.color-custom-3
+	background-color: #583AE2
+	&::before
+		background-color: #FFF
+
+.color-custom-4
+	background-color: #36257B
+
+.color-custom-5
+	background-color: #D4CBFE
+
+.color-custom-6
+	background-color: #DAF1F5
+
+.cajon-b.color-primario::before
+  background-color: #D5CEF8
+
+
+.m-right
+  right: -40% !important
+  @media (max-width: 992px)
+    right: -1% !important
+
+@media (max-whidth:$bp-max-sm)
+  .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__number
+    height: 90px
+
+
+
+.linea-tiempo-d__item__content__title
+  cursor: pointer
+  font-size: 20px
+  @media (max-width: 412px)
+    width: 350px
+.linea-tiempo-d__item__dots::after
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #E8CBD3
+
+.linea-tiempo-d.color-secundario.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: #E6E1FB
+      color: $color-sistema-texto
+    .linea-tiempo-d__item__content
+      background-color: #E6E1FB
+      color: #000
+
+.linea-tiempo-d__item__content__title
+  cursor: pointer
+  font-size: 18px
+  height: 110% !important
+
+
+
+.linea-tiempo-d.color-secundario.especial .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  color: #000
+  padding-top: 15px
+
+.linea-tiempo-d__item__content__title
+  display: flex
+  align-items: center
+  height: 60px
+  cursor: pointer
+
+
