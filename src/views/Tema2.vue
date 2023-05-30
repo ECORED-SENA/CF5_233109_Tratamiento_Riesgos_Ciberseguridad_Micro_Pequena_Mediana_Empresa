@@ -93,7 +93,7 @@
 
     Separador
 
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-contenido
       .h2 2.1  Tipos
 
     p.mb-3 A partir de las experiencias y buenas prácticas desarrolladas por expertos en el proceso de evaluación, validación y auditoría y lo contemplado en la Guía para la evaluación de controles de seguridad (NIST, 2010), es posible determinar una secuencia de pasos a realizar durante el proceso de evaluación, como se puede observar a continuación:
@@ -102,131 +102,131 @@
       .col-lg-10(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Revisar documentación")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_1.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Verificación de documentos existente para el sistema o la aplicación bajo prueba. Estos documentos deben proporcionar las áreas principales para el escrutinio y la evaluación.
 
           .row.justify-content-center.align-items-center(titulo="Revisar requisitos legales y reglamentarios")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_2.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Cada sistema debe ajustarse a políticas y reglamentos, normalmente basados en los tipos de información utilizados, procesados o mantenidos por el sistema y la misión del sistema. Identificar áreas de conformidad y concordancia sustantiva entre el sistema, sus documentos y los requisitos externos.
 
           .row.justify-content-center.align-items-center(titulo="Realizar el análisis GAP (15 pasos)")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_3.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Todos los documentos relevantes del sistema y de la documentación de apoyo.
 
           .row.justify-content-center.align-items-center(titulo="Visitar el lugar")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_4.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-3 Primera visita de verificación del estado del sistema y de los equipos, objetivo primordial para identificar áreas potenciales de preocupación o sospecha.
               p.mb-0 Gestión de las expectativas del personal y la Dirección, sobre el proceso.
 
           .row.justify-content-center.align-items-center(titulo="Construir SAP y ROE")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_5.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Desarrollar el Plan de Evaluación de Seguridad (SAP) que define los pasos, herramientas y técnicas de revisión que se aplicarán durante la evaluación.  También se definen las Reglas de Compromiso (ROE) para toda la evaluación, incluyendo la realización de cualquier prueba externa, entrevistas e inspecciones según lo requerido por la organización.
 
           .row.justify-content-center.align-items-center(titulo="Aprobar SAP y ROE")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_6.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Presentar el SAP y las ROE para su aprobación y aceptación al responsable de la contratación.  La visita de evaluación propiamente dicha, no debe comenzar hasta haber recibido los documentos aprobados y firmados por medios oficiales.
 
           .row.justify-content-center.align-items-center(titulo="Realizar la evaluación")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_7.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Una vez aprobados el SAP y las ROE, se programa la visita <em>in situ</em> para llevar a cabo las actividades de evaluación propiamente dichas. Importante preparación para la visita familiarizándose con las herramientas del oficio y documentación del sistema para realizar correctamente las entrevistas y los exámenes.
 
           .row.justify-content-center.align-items-center(titulo="Visita <em>in situ</em>")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_8.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Suele comenzar con una reunión informativa con la dirección, en la que se discuten las expectativas de la visita, se reconfirma la programación de las entrevistas y se presenta el equipo al personal del lugar.
 
           .row.justify-content-center.align-items-center(titulo="Entrevistar al personal clave")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_9.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Entrevistas con el personal operativo clave del sistema, el director de las instalaciones del lugar, el personal de seguridad tanto del lugar como del sistema, el propietario del sistema, los miembros del personal de administración del sistema del lugar y del sistema, así como cualquier desarrollador asociado con el sistema.
 
           .row.justify-content-center.align-items-center(titulo="Examinar el sistema")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_10.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Obtener una demostración por parte del personal para observar el procesamiento y los controles de seguridad en acción, así como las actividades de entrada y salida del sistema (control de acceso, identificación y autenticación, integridad, protección del sistema, comunicaciones).
 
           .row.justify-content-center.align-items-center(titulo="Llevar a cabo una inspección de recorrido de seguridad")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_11.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Verificación de controles físicos y ambientales, de mantenimiento, de protección de medios y de planificación de contingencias del sistema (controles de extinción y detección de incendios, sistema de calefacción, ventilación y aire acondicionado, servicios públicos y acceso físico, capacidad de alimentación de reserva de la ubicación empleada dentro del sistema).
 
           .row.justify-content-center.align-items-center(titulo="Probar el sistema con las herramientas definidas en SAP")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_12.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Para obtener pruebas de cumplimiento y configuraciones de control de seguridad:
               p.mb-0 -Herramientas de escaneo: escáneres de bases de datos, de vulnerabilidad, de sitios web, mapeadores de red.
               p.mb-0 -Herramientas automatizadas: comprobadores de la integridad de los archivos, detección de redes inalámbricas, pruebas de penetración para comprobar conjuntos de controles de seguridad.
 
           .row.justify-content-center.align-items-center(titulo="Análisis inicial de los resultados")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_13.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Una vez finalizada la ejecución de la(s) herramienta(s) a través de sus operaciones, revisar los resultados para identificar deficiencias o debilidades de alto o medio impacto. Además, se revisan los resultados de la prueba para asegurar que se ha completado con éxito.
 
           .row.justify-content-center.align-items-center(titulo="Informe de corrección para la toma de medidas")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_14.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Cada herramienta utilizada proporciona un método para la identificación de los problemas descubiertos.  Esos datos se proporcionan al personal de administración del sistema, a través de informe que permita corregir cualquier deficiencia o debilidad de impacto significativo tan pronto como sea posible.
 
           .row.justify-content-center.align-items-center(titulo="Recibir pruebas del artefacto de esfuerzo de reparación")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_15.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 El personal <em>in situ</em> del sistema permite ejecutar nuevamente las herramientas automatizadas para verificar la reparación o la prueba de la reparación mediante el uso de "capturas de pantalla" o informes de salida de los dispositivos.  Estos documentos y artefactos se adjuntan o se incluyen en el SAR.
 
           .row.justify-content-center.align-items-center(titulo="Construir el SAR")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_16.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Comienza durante la fase de pruebas revisando los resultados de los exámenes y las entrevistas.  Finalizada dicha fase y entregado el Informe de reparación, se incluyen los resultados de los escaneos y otras pruebas realizadas.  Finalmente, se incluyen todas las áreas, junto con una tabla completa de resultados por control.
 
           .row.justify-content-center.align-items-center(titulo="Revisar el SAR con el cliente")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_17.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Se revisan los resultados preliminares para señalar cualquier área o elemento que pueda arreglarse, repararse o remediarse antes de la entrega final. A menudo, el cliente aborda algunas o todas estas áreas y proporciona documentación de apoyo adicional o prueba de la corrección, que se incluye en el SAR final.
 
           .row.justify-content-center.align-items-center(titulo="Desarrollar el SAR final")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_18.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Una vez terminadas todas las revisiones y discusiones, se completa el SAR en su versión final y se prepara el #[em briefing] para el AO que acompañará al informe.
 
           .row.justify-content-center.align-items-center(titulo="Elaborar la carta de certificación")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_19.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Completado el SAR y las revisiones del SSP como resultado de la evaluación, se genera una Carta de Certificación para el AO indicando los resultados de la evaluación y la opinión del evaluador sobre los riesgos del sistema.
 
           .row.justify-content-center.align-items-center(titulo="Entregar el informe de evaluación y la carta de certificación al propietario del sistema y al cliente")
-            .col-3.col-lg-2
+            .col-auto
               img(src='@/assets/curso/images/tema2/ico_20.svg'  alt='')
-            .col-md-12.col-lg-10.mb-4.mb-md-0
+            .col
               p.mb-0 Último paso del proceso que implica entregar el SAR final, la versión final del SSP y la Carta de recomendación al AO y al propietario del sistema para que tomen medidas.
 
     Separador
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo.color-acento-contenido
       .h2 2.2  Características
 
     .row.justify-content-center.align-items-star.mb-3
@@ -293,11 +293,8 @@
               img(src='@/assets/curso/images/tema2/fig_3.svg', style="max-width:988px", alt='').m-auto
 
 
-
-
-    .row.align-items-center.justify-content-center.mb-5.bg.title
-      .col-10.col-lg-6
-        h3.text-white.m-left.mt-2.mb-2 Métodos de evaluación
+    .btn-h3.mb-4
+      span.h3 Métodos de evaluación
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
@@ -339,9 +336,8 @@
           .col-12.col-lg-5(data-aos="fade-right")
               img.mt-5(src='@/assets/curso/images/tema2/img_9.png'  alt='')
 
-    .row.justify-content-center.mb-5.bg.title-1
-      .col-10.col-lg-6
-        h3.text-white.m-left.mt-2.mb-2 <i>Testing</i>
+    .btn-h3.mb-4
+      span.h3 #[i Testing]
 
 
     .row.align-items-center.justify-content-center.mb-5
@@ -354,162 +350,26 @@
 
     Separador
 
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo.color-acento-contenido
       .h2 2.3 #[em Software]
 
-    p.mb-4 Se debe revisar cada detalle en la siguiente infografía, sobre los métodos de evaluación y lineamientos establecidos en relación al #[em software]:
+    p.mb-5 Se debe revisar cada detalle en la siguiente infografía, sobre los métodos de evaluación y lineamientos establecidos en relación al #[em software]:
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="zoom-in-down")
-        .tarjeta.color-custom-4.p-3.mb-5
+        .tarjeta.color-secundario.px-4.py-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mx-1(src="@/assets/curso/images/tema2/ico_pdf.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+              img(src="@/assets/curso/images/tema2/ico_pdf.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.text-white Métodos de Evaluación
-                  p.mb-1.text-white Su consulta para conocer más a detalle los métodos de evaluación, puede consultar el siguiente material pdf.
+                  h4.mb-1.text-white Métodos de Evaluación
+                  p.text-white.mb-0.text-small Para conocer más a detalle los métodos de evaluación, lo invitamos a consultar el siguiente PDF.
                 .col-sm-auto
-                  a.boton(:href="obtenerLink('downloads/anexo_metodos.pdf')" target="_blank").float-end
-                    span Enlace
-                    .row
-                      .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo_metodos.pdf')" target="_blank")
+                    span.color-btn-texto Ver pdf
+                    i.far.fa-file-pdf
 
 
 </template>

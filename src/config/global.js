@@ -196,7 +196,12 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar PDF',
+        download: 'downloads/pdf.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -295,13 +300,6 @@ export default {
       tipo: 'Página Web',
       link: 'https://owasp.org/www-community/Vulnerability_Scanning_Tools',
     },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
   ],
   creditos: [
     {
@@ -363,32 +361,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Ángela María Maldonado Jaime ',
-          cargo: 'Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Carlos Eduardo Garavito Parada ',
           cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Lady Adriana Ariza Luque ',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Validación audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Lina Marcela Pérez Manchego ',
-          cargo: 'Validación ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -411,19 +385,19 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

@@ -53,8 +53,35 @@
   .tarjeta--gris
     background-color: #F6F6F6  !important
     &.acordion__activo
-      background-color: #E3F5F8 !important
+      background-color: #DAF1F5 !important
 
+.acordion__activo .acordion__accion__btn--b
+  border: 1px solid #45BBCC
+
+.acordion__activo .acordion__accion__btn--b i
+  color: #45BBCC
+
+a.boton.color-acento-botones span,
+a.boton.color-acento-botones i
+  color: $color-sistema-texto
+
+.btn-h3
+  position: relative
+  display: inline-block
+  background: #40327B
+  border-start-end-radius: 50px 50px
+  border-end-end-radius: 50px 50px
+  padding: 8px 45px 8px 50px
+  span
+    color: #fff
+  &::before
+    content: ""
+    position: absolute
+    background: url(../assets/curso/bg/bg-btn-h3.svg)
+    width: 40px
+    height: 38px
+    bottom: 0px
+    left: 0px
 
 .bg
   &-c1
@@ -81,10 +108,17 @@
     background-repeat: no-repeat
     background-size: cover
     background-position: top right
+  &-c5
+    background: #DAF1F5
+    background-image: url(../assets/curso/bg/bg-c5.svg)
+    background-position: top right
+    background-repeat: no-repeat
+    background-size: cover
 
 ul.lista-ul--color
   li
     display: flex !important
+    align-items: start
     &::before
       position: relative
       margin-right: 7px
@@ -260,21 +294,11 @@ ul.lista-ul--color
 .vineta-2
   &::before
     content: url(../assets/curso/images/tema4/vineta.svg)
-
-.bg.title
-  background-image: url('../assets/curso/images/tema2/ico_text.svg')
-  background-repeat: no-repeat
-  background-size: contain
-  @media (max-width: $bp-max-md)
-    background-size: 340px
-    height: 50px
-    background-repeat: no-repeat
-    margin-bottom: 20px !important
-
-.bg.title-1
-  background-image: url('../assets/curso/images/tema2/ico_text-1.svg')
-  background-repeat: no-repeat
-  background-size: contain
+    width: 10px
+    height: 10px
+    position: absolute
+    top: -4px
+    left: 0px
 
 .m-left
   margin-left: -270px
@@ -323,7 +347,8 @@ ul.lista-ul--color
     background-color: #E3F5F8
     z-index: 0
     @media (max-width: $bp-max-md)
-      margin-left: -30px
+      margin-left: -50px
+
 
 .color-custom-3
 	background-color: #583AE2
