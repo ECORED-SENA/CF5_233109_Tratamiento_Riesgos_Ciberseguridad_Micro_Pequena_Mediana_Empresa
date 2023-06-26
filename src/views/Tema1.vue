@@ -17,7 +17,7 @@
 
     p.mb-3 A continuación se pueden observar algunas consideraciones a la hora de emprender un programa de métricas de seguridad:
 
-    .row.justify-content-center.align-items-star.mb-5
+    .row.justify-content-center.align-items-star.mb-2.mb-lg-5
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Las métricas son un viaje, no el destino")
@@ -33,11 +33,11 @@
               p.mb-0 Las métricas son depósitos de datos conceptuales que definen y estandarizan información.  Al igual que las entradas de palabras bien definidas no transforman un diccionario en literatura: ¡Solo las personas pueden lograr estas cosas!
 
 
-      .col-8.col-lg-4(data-aos="fade-right")
+      .col-8.col-lg-4(data-aos="fade-right").d-none.d-lg-block
           img(src='@/assets/curso/images/tema1/img_2.svg'  alt='')
 
     .row.justify-content-center.align-items-star
-      .col-8.col-lg-4(data-aos="fade-left")
+      .col-8.col-lg-4(data-aos="fade-left").d-none.d-lg-block
           img(src='@/assets/curso/images/tema1/img_3.svg'  alt='').mb-3
       .col-lg-8(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
@@ -111,7 +111,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-md-12.col-xl-6.mb-4.mb-xl-0
-                h3.mb-3 Utilizar la matriz para crear un prototipo de nuevas evaluaciones de riesgos.
+                h3.mb-3 Utilizar la matriz para crear un prototipo de nuevas evaluaciones de riesgos
                 p.mb-3 Ante los resultados, plantearse ¿por qué?, pensando en preguntas de seguimiento que conducen a nuevas mediciones:
                 ul.lista-ul--color.mt-3.mb-0
                   li
@@ -126,7 +126,7 @@
                   img(src='@/assets/curso/images/tema1/img_5.png', style="max-width: 505px",  alt='')(data-aos="zoom-in").m-auto
 
             .row.justify-content-center.align-items-center
-              .col-md-12.col-xl-6.mb-4.mb-xl-0
+              .col-md-12.col-xl-6.mb-3.mb-xl-0
                 h3.mb-3 Medir las diferencias de acuerdo.
                 p.mb-3 Comparar lo que piensan las diferentes personas de la organización sobre el riesgo, identificando las áreas en las que hay acuerdo o aquellas en las que hay amplia variación en las opiniones.
 

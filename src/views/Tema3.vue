@@ -129,7 +129,7 @@
 
     .row.align-items-center.justify-content-center.fondo-3.p-4
       .col-12.col-lg-12(data-aos="fade-left")
-          img(src='@/assets/curso/images/tema3/fig_1.svg'  alt='')
+          img(src='@/assets/curso/images/tema3/fig_1.svg'  alt='La imagen nos presenta los modelos de negocio, los cuales son la forma más fácil de entender la dirección y funcionamiento de la empresa. Allí se encuentran los productos o servicios, las estrategias, las actividades, los valores y los objetivos.Luego nos presenta el modelo de negocio de TI, donde se debe:Entender desde una perspectiva empresarial, qué es lo más importante para la organización.Proporcionar soluciones de seguridad que se ajusten al modelo de negocio de su organización.Clasificaciones básicas de modelos de negocios aplicables a la mayoría de entornos empresariales: gobierno, comercial y universidades.')
 
 
 

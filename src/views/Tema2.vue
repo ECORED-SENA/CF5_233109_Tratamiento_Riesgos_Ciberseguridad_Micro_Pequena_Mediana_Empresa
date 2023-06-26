@@ -8,7 +8,7 @@
       h1 <i>Testing</i> y monitoreo de la seguridad digital
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-xl-4(data-aos="fade-left")
+      .col-xl-4.col-8(data-aos="fade-left")
           img(src='@/assets/curso/images/tema2/img_1.png'  alt='').mb-3
       .col-xl-8(data-aos="fade-right")
         p.mb-3 La evaluación de un sistema o aplicación es el proceso de revisar, probar y evaluar los componentes, la documentación y todos los parámetros de este sistema o aplicación con el fin de garantizar que sea lo más seguro posible, dentro de la tolerancia al riesgo de una organización, mientras está operativo y se utiliza para su propósito.
@@ -17,7 +17,7 @@
 
 
     .bg-c2.my-5
-      .py-5
+      .py-5.px-5.px-xl-0
         .row.align-items-center.justify-content-center
           .col-xl-10
 
@@ -26,58 +26,49 @@
               span Evaluación de controles de seguridad
 
             figure.mt-5
-              img(src='@/assets/curso/images/tema2/fig_1.svg', style="max-width:1240px", alt='').m-auto
+              img(src='@/assets/curso/images/tema2/fig_1.svg', style="max-width:1240px", alt='La imagen presenta el procedimiento de evaluación, el cual está compuesto por unos objetivos de evaluación, métodos y objetos de evaluación, declaraciones de determinación y funcionalidad del control de seguridad/privacidad. A su vez la aplicación del procedimiento de evaluación a un control de seguridad, produce resultados de evaluación, que se reflejan en la eficacia del control.').m-auto
 
 
 
     p.mb-5 Los objetos de evaluación identifican los elementos específicos que se evalúan e incluyen especificaciones, mecanismos, actividades e individuos, a continuación se puede ver en qué consisten:
 
-    .row.mb-5
+    .row.mb-5.align-items-stretch
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema2/tj_1.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.fondo-2
-              .row.align-items-center.justify-content-center
-                img(src='@/assets/curso/images/tema2/ico_new_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
-              h3.text-center Especificaciones
-              p.mb-0.text-center Documentación (políticas, procedimientos, planes requisitos de seguridad y privacidad, especificaciones funcionales, diseños arquitectónicos) asociados a un sistema de información.
+        .tarjeta.fondo-2.h-100
+          .p-4
+            .row.align-items-center.justify-content-center
+              img(src='@/assets/curso/images/tema2/ico_new_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
+            h3.text-center Especificaciones
+            p.mb-0.text-center Documentación (políticas, procedimientos, planes requisitos de seguridad y privacidad, especificaciones funcionales, diseños arquitectónicos) asociados a un sistema de información.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema2/tj_2.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.fondo-2
-              .row.align-items-center.justify-content-center
-                img(src='@/assets/curso/images/tema2/ico_new_2.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
-              h3.text-center Mecanismos
-              p.mb-0.text-center Salvaguardas y contramedidas específicas de #[em hardware], #[em software] o #[em firmware] empleadas en un sistema de información, es decir, los controles técnicos.
+        .tarjeta.fondo-2.h-100
+          .p-4
+            .row.align-items-center.justify-content-center
+              img(src='@/assets/curso/images/tema2/ico_new_2.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
+            h3.text-center Mecanismos
+            p.mb-0.text-center Salvaguardas y contramedidas específicas de #[em hardware], #[em software] o #[em firmware] empleadas en un sistema de información, es decir, los controles técnicos.
 
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema2/tj_3.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.fondo-2
-              .row.align-items-center.justify-content-center
-                img(src='@/assets/curso/images/tema2/ico_new_3.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
-              h3.text-center Actividades
-              p.mb-0.text-center Procesos relacionados con la protección de un sistema de información que involucran a las personas (por ejemplo, la realización de operaciones de copia de seguridad, la supervisión del tráfico de la red, la ejecución de un plan de contingencia).
+        .tarjeta.fondo-2.h-100
+          .p-4
+            .row.align-items-center.justify-content-center
+              img(src='@/assets/curso/images/tema2/ico_new_3.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
+            h3.text-center Actividades
+            p.mb-0.text-center Procesos relacionados con la protección de un sistema de información que involucran a las personas (por ejemplo, la realización de operaciones de copia de seguridad, la supervisión del tráfico de la red, la ejecución de un plan de contingencia).
 
       .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema2/tj_4.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.fondo-2
-              .row.align-items-center.justify-content-center
-                img(src='@/assets/curso/images/tema2/ico_new_4.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
-              h3.text-center Individuos
-              p.mb-0.text-center Personas que aplican las especificaciones, los mecanismos o actividades.
+        .tarjeta.fondo-2.h-100
+          .p-4
+            .row.align-items-center.justify-content-center
+              img(src='@/assets/curso/images/tema2/ico_new_4.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
+            h3.text-center Individuos
+            p.mb-0.text-center Personas que aplican las especificaciones, los mecanismos o actividades.
 
     p.mb-3 El objetivo de estas distintas áreas de evaluación y su cobertura del sistema y la red en cuestión, es proporcionar pruebas de evaluación que los responsables puedan utilizar para tomar decisiones operativas desde el punto de vista de la fiabilidad, tal y como se muestra en la siguiente figura.
 
     .bg-c2.mt-5
-      .py-5
+      .py-5.px-5.px-xl-0
         .row.align-items-center.justify-content-center
           .col-xl-10
 
@@ -85,8 +76,10 @@
               h5 Figura 2
               span Sistemas de información de confiabilidad
 
-            figure.mt-5
-              img(src='@/assets/curso/images/tema2/fig_2.svg', style="max-width:819px", alt='').m-auto
+            .row.align-items-center.justify-content-center
+              .col-xl-8.col-lg-11
+                figure.mt-5
+                  img(src='@/assets/curso/images/tema2/fig_2.svg', style="max-width:819px", alt='La imagen presenta el proceso de los sistemas de información de confiabilidad.').m-auto
 
     figcaption Nota. Tomado de J. Leighton (2019).
 
@@ -173,8 +166,13 @@
               img(src='@/assets/curso/images/tema2/ico_12.svg'  alt='')
             .col
               p.mb-0 Para obtener pruebas de cumplimiento y configuraciones de control de seguridad:
-              p.mb-0 -Herramientas de escaneo: escáneres de bases de datos, de vulnerabilidad, de sitios web, mapeadores de red.
-              p.mb-0 -Herramientas automatizadas: comprobadores de la integridad de los archivos, detección de redes inalámbricas, pruebas de penetración para comprobar conjuntos de controles de seguridad.
+              ul.lista-ul--color.mb_1
+                li.mb-1
+                  i.lista-ul__vineta
+                  span #[strong Herramientas de escaneo:] escáneres de bases de datos, de vulnerabilidad, de sitios web, mapeadores de red.
+                li.mb-1
+                  i.lista-ul__vineta
+                  span #[strong Herramientas automatizadas:] comprobadores de la integridad de los archivos, detección de redes inalámbricas, pruebas de penetración para comprobar conjuntos de controles de seguridad.
 
           .row.justify-content-center.align-items-center(titulo="Análisis inicial de los resultados")
             .col-auto
@@ -238,6 +236,7 @@
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
             p.mb-3 Para llevar a cabo la evaluación de un sistema o aplicación, hay que centrarse inicialmente en las áreas de mayor impacto, mayor valor y mayor volatilidad. Una vez determinado esto, el enfoque se desplaza al resto del sistema o aplicación para cubrir todas las posibles áreas de impacto, ya que, en el ámbito de la seguridad, hoy en día es posible cualquier método de ataque o entrada en el sistema.
             br
+            br
             p.mb-0 Según la SP 800-115, algunas evaluaciones se centran en verificar que un control de seguridad concreto (o un conjunto de controles) cumple los requisitos, mientras que otras evaluaciones pretenden identificar, validar y valorar los puntos débiles de seguridad explotables de un sistema. Las evaluaciones también se realizan para aumentar la capacidad de una organización para mantener una defensa proactiva de la red informática. En todo caso, las evaluaciones no pretenden sustituir la implementación de controles de seguridad y el mantenimiento de la seguridad del sistema.
 
     .row.justify-content-center.align-items-star.mb-3
@@ -246,12 +245,13 @@
           p.mb-3 El enfoque especializado de un evaluador es necesario cuando el sistema bajo prueba o la aplicación en cuestión se encuentra en un entorno de alta volatilidad, acaba de remediar problemas de seguridad que se han reparado, o requiere una revisión de verificación y validación independiente para futuras operaciones en una red federal.
 
           p.mb-0 El NIST en la Guía para la evaluación de controles de seguridad (2010), hace las siguientes recomendaciones a las organizaciones interesadas en llevar a cabo evaluaciones técnicas de seguridad y garantizar que las pruebas y exámenes técnicos de seguridad proporcionen el máximo valor:
-      .col-8.col-lg-2
+      .col-8.col-lg-2.d-none.d-lg-block
         img(src='@/assets/curso/images/tema2/img_3.svg'  alt='')
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-8.col-lg-4(data-aos="fade-left")
+      .col-8.col-lg-4(data-aos="fade-left").d-none.d-lg-block
           img(src='@/assets/curso/images/tema2/img_4.svg'  alt='')
+
       .col-lg-8(data-aos="fade-right")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Establecer una política de evaluación de la seguridad de la información' numero='1')
@@ -262,17 +262,17 @@
               p.mb-0 Metodología repetible y documentada que proporcione:
                 ul.lista-ul--color.mt-3
                   li
-                    i.vineta-1(data-aos="fade-up")
-                    p.mb-0 Coherencia y estructura a las evaluaciones.
+                    i.fas.fa-check-circle
+                    span Coherencia y estructura a las evaluaciones.
                   li
-                    i.vineta-1(data-aos="fade-up")
-                    p.mb-0 Acelere la transición del nuevo personal de evaluación.
+                    i.fas.fa-check-circle
+                    span Acelere la transición del nuevo personal de evaluación.
                   li
-                    i.vineta-1(data-aos="fade-up")
-                    p.mb-0 Aborde las limitaciones de recursos asociadas a las evaluaciones.
+                    i.fas.fa-check-circle
+                    span Aborde las limitaciones de recursos asociadas a las evaluaciones.
                   li
-                    i.vineta-1(data-aos="fade-up")
-                    p.mb-0 Permita a las organizaciones maximizar el valor de las evaluaciones al tiempo que minimiza los posibles riesgos introducidos por ciertas técnicas de evaluación.
+                    i.fas.fa-check-circle
+                    span Permita a las organizaciones maximizar el valor de las evaluaciones al tiempo que minimiza los posibles riesgos introducidos por ciertas técnicas de evaluación.
           .row(titulo='Analizar los hallazgos y desarrollar técnicas de mitigación de riesgos para abordar los puntos débiles' numero='3')
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Las organizaciones deben realizar un análisis de las causas raíz al finalizar una evaluación para poder traducir los resultados en técnicas de mitigación procesables. Estos resultados pueden indicar que las organizaciones deben abordar no sólo las debilidades técnicas, sino también debilidades en procesos y procedimientos.
@@ -281,7 +281,7 @@
 
 
     .bg-c2.my-5
-      .py-5
+      .py-5.px-5.px-xl-0
         .row.align-items-center.justify-content-center
           .col-xl-10
 
@@ -289,9 +289,10 @@
               h5 Figura 3
               span RMF Paso 4 - Evaluar los controles de seguridad
 
-            figure.mt-5
-              img(src='@/assets/curso/images/tema2/fig_3.svg', style="max-width:988px", alt='').m-auto
-
+            .row.align-items-center.justify-content-center
+              .col-xl-10
+                figure.mt-3
+                  img(src='@/assets/curso/images/tema2/fig_3.svg', style="max-width:988px", alt='La imagen presenta el RMF paso 4, evaluar los controles de seguridad, el cual está compuesto de 4 tareas: Tarea 1: preparación de la evaluación, donde se desarrolla, revisa y aprueba un plan para evaluar los controles de seguridad.Tarea 2: evaluación de los controles de seguridad, donde se evalúan los controles de seguridad, de acuerdo con los procedimientos de evaluación, definidos en el plan de evaluación de la seguridad.Tarea 3: informe de evaluación de la seguridad, donde se prepara el informe de evaluación de la seguridad, documentando los problemas, conclusiones y recomendaciones de la evaluación de los controles de seguridad.Tarea 4: acciones correctivas, donde se llevan a cabo las acciones correctivas iniciales en los controles de seguridad, de acuerdo con las conclusiones y recomendaciones del informe de evaluación de la seguridad.').m-auto
 
     .btn-h3.mb-4
       span.h3 Métodos de evaluación
@@ -331,6 +332,13 @@
 
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-5
+            h3.mb-3 Observación
+            p.mb-0 Ofrece la oportunidad de documentar las actividades, el comportamiento y los aspectos físicos sin tener que depender de la voluntad y la capacidad de las personas para responder a las preguntas de la entrevista o aislar el documento exacto que es relevante para un control o riesgo concreto
+          .col-12.col-lg-5(data-aos="fade-right")
+              img.mt-5(src='@/assets/curso/images/tema2/img_10.png'  alt='')
+
+        .row.align-items-center.justify-content-center.mb-5
+          .col-lg-5
             h3.mb-3 Revisión de la documentación
             p.mb-0 Determina si los aspectos técnicos de las políticas y procedimientos están actualizados y son completos.  La documentación incluye arquitecturas y requisitos de seguridad, planes de seguridad del sistema, acuerdos de autorización, memorandos de entendimiento y los acuerdos para las interconexiones del sistema, y planes de respuesta a incidentes.
           .col-12.col-lg-5(data-aos="fade-right")
@@ -367,7 +375,7 @@
                   h4.mb-1.text-white Métodos de Evaluación
                   p.text-white.mb-0.text-small Para conocer más a detalle los métodos de evaluación, lo invitamos a consultar el siguiente PDF.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo_metodos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/anexometodos.pdf')" target="_blank")
                     span.color-btn-texto Ver pdf
                     i.far.fa-file-pdf
 

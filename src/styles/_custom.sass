@@ -43,7 +43,7 @@
   100%
     transform: translateY(0px)
 
-.banner-principal__row
+.banner-principal__row----
   .col-xxl-5.banner-principal__info
     flex: 0 0 auto
     width: 58.3333333333%
@@ -129,6 +129,12 @@ ul.lista-ul--color
   background-color: #DAF1F5
 
 .jumbotron-2
+  background-image: url("../assets/curso/images/tema4/back_tarjeta.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 20px
+
+.jumbotron-2--
   background-image: url("../assets/curso/images/tema4/back_tarjeta.svg") !important
   background-repeat: no-repeat
   background-size: 100%
@@ -373,18 +379,25 @@ ul.lista-ul--color
   @media (max-width: 992px)
     right: -1% !important
 
-@media (max-whidth:$bp-max-sm)
-  .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__number
+
+.linea-tiempo-d__item__content__title.px-3
+  padding-top: 1rem
+  padding-bottom: 1rem
+
+@media (max-width:$bp-max-sm)
+  .linea-tiempo-d__item__content__title
+    cursor: pointer
+    height: 115% !important
+  .linea-tiempo-d__item__content__title---, .linea-tiempo-d__item__number---
     height: 90px
 
-
-
-.linea-tiempo-d__item__content__title
+.linea-tiempo-d__item__content__title---
   cursor: pointer
   font-size: 20px
   @media (max-width: 412px)
     width: 350px
-.linea-tiempo-d__item__dots::after
+
+.linea-tiempo-d__item__dots::after---
   content: ''
   display: block
   width: 0
@@ -402,19 +415,20 @@ ul.lista-ul--color
 
 .linea-tiempo-d__item__content__title
   cursor: pointer
-  font-size: 18px
   height: 110% !important
 
-
-
-.linea-tiempo-d.color-secundario.especial .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+.linea-tiempo-d.color-secundario.especial--- .linea-tiempo-d__item--selected .linea-tiempo-d__item__content---
   color: #000
   padding-top: 15px
 
-.linea-tiempo-d__item__content__title
+.linea-tiempo-d__item__content__title---
   display: flex
   align-items: center
   height: 60px
   cursor: pointer
 
-
+.banner-principal
+  .container.tarjeta
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background: #583AE2

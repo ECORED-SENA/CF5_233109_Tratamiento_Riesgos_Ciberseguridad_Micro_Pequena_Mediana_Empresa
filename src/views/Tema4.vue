@@ -7,51 +7,51 @@
         span 4
       h1 Fundamentos de SOC - <i>Security Operation Center</i>
 
-    p.mb-3 El centro de operaciones de seguridad, más comúnmente llamado "el SOC", es una unidad centralizada que se ocupa de los problemas de seguridad tanto a nivel organizativo como técnico. Esto ocurre mediante el uso de personas, procesos y capacidades para prestar servicios que pueden incluir:
+    p.mb-5 El centro de operaciones de seguridad, más comúnmente llamado "el SOC", es una unidad centralizada que se ocupa de los problemas de seguridad tanto a nivel organizativo como técnico. Esto ocurre mediante el uso de personas, procesos y capacidades para prestar servicios que pueden incluir:
 
     .row.justify-content-center(data-aos="zoom-in")
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
+      .col-10.col-lg-6.col-xl-4.mb-3(data-aos="fade-right")
+        .jumbotron-2.p-2.px-3.mb-3.h-100
           .row.justify-content-center.align-items-center.mt-2
-            .col-3.col-lg-4.ps-2.pe-0
+            .col-auto
               img(src='@/assets/curso/images/tema4/ico_1.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center <b>Identificación y la reducción de riesgos.</b>
+            .col
+              p.mb-0 <b>Identificación y la reducción de riesgos.</b>
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
+      .col-10.col-lg-6.col-xl-4.mb-3(data-aos="fade-right")
+        .jumbotron-2.p-2.px-3.mb-3.h-100
           .row.justify-content-center.align-items-center.mt-2
-            .col-3.col-lg-4.ps-2.pe-0
+            .col-auto
               img(src='@/assets/curso/images/tema4/ico_2.svg' alt='', style="width:80px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center <b>Tratamiento de vulnerabilidades.</b>
+            .col
+              p.mb-0 <b>Tratamiento de vulnerabilidades.</b>
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
+      .col-10.col-lg-6.col-xl-4.mb-3(data-aos="fade-right")
+        .jumbotron-2.p-2.px-3.mb-3.h-100
           .row.justify-content-center.align-items-center.mt-2
-            .col-3.col-lg-4.ps-2.pe-0
+            .col-auto
               img(src='@/assets/curso/images/tema4/ico_3.svg' alt='', style="width:80px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center <b>Adhesión a los requisitos de cumplimiento.</b>
+            .col
+              p.mb-0 <b>Adhesión a los requisitos de cumplimiento.</b>
 
     .row.justify-content-center
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
+      .col-10.col-lg-6.col-xl-4.mb-3(data-aos="fade-right")
+        .jumbotron-2.p-2.px-3.mb-3.h-100
           .row.justify-content-center.align-items-center.mt-2
-            .col-3.col-lg-4.ps-2.pe-0
+            .col-auto
               img(src='@/assets/curso/images/tema4/ico_4.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center <b>Respuesta a los incidentes.</b>
+            .col
+              p.mb-0 <b>Respuesta a los incidentes.</b>
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
-        .jumbotron-2.p-2.mb-3.h-100
+      .col-10.col-lg-6.col-xl-4.mb-3(data-aos="fade-right")
+        .jumbotron-2.p-2.px-3.mb-3.h-100
           .row.justify-content-center.align-items-center.mt-2
-            .col-3.col-lg-4.ps-2.pe-0
+            .col-auto
               img(src='@/assets/curso/images/tema4/ico_5.svg' alt='', style="width:80px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
-              p.mb-0.text-center <b>Recogida de pruebas forenses.</b>
+            .col
+              p.mb-0 <b>Recogida de pruebas forenses.</b>
 
-    p.mb-5 A continuación, se detallan algunos conceptos y elementos generales de las etapas de operación de un SOC, que favorecen un correcto funcionamiento:
+    p.my-5 A continuación, se detallan algunos conceptos y elementos generales de las etapas de operación de un SOC, que favorecen un correcto funcionamiento:
 
     .row.justify-content-center.align-items-star.mb-5
       .col-xl-4(data-aos="fade-right").d-none.d-xl-block
@@ -84,13 +84,13 @@
           i.fas.fa-quote-right
           h4.mb-2 El objetivo de un SOC es detectar, analizar y corregir incidentes de ciberseguridad utilizando soluciones tecnológicas y enfoques diferentes. Estos supervisan y analizan la actividad en redes, servidores, terminales, bases de datos, aplicaciones, sitios web y otros sistemas, en busca de señales débiles o comportamientos anormales que puedan indicar un incidente de seguridad o un compromiso.
           span (Oracle.com, 2021).
-      .col-10.col-lg-4.col-sm-8(data-aos="fade-left")
+      .col-10.col-lg-4.col-sm-8(data-aos="fade-left").d-none.d-lg-block
           img.mt-3(src='@/assets/curso/images/tema4/img_2.svg'  alt='')
 
     .row.align-items-center.justify-content-center.fondo-4.mb-5.p-4
-      .col-10.col-lg-4.col-sm-8(data-aos="fade-left")
-          img(src='@/assets/curso/images/tema4/img_3.svg'  alt='').mb-3
-      .col-lg-6(data-aos="fade-right")
+      .col-xl-4.col-lg-8.col-sm-6.col-8(data-aos="fade-left")
+        img(src='@/assets/curso/images/tema4/img_3.svg'  alt='').mb-3
+      .col-xl-6(data-aos="fade-right")
         p.mb-3 Los objetivos de un centro de operaciones de seguridad (SOC), deben enfocarse en:
           ul.lista-ul--color.mt-4
             li

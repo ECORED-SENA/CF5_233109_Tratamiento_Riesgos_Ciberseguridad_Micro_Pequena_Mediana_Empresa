@@ -10,7 +10,8 @@
 
     .row.justify-content-center.align-items-center
       .col-auto.onTop
-        img.mb-3(src="@/assets/curso/images/tema5/img_1.svg" alt='AvatarTop', style="width:430px;").m-auto
+        .p-5.p-lg-0
+          img.mb-3(src="@/assets/curso/images/tema5/img_1.svg" alt='', style="width:430px;").m-auto
       .col-lg
         .custom_box_left
           p.mb-3 Cuando se lleva a cabo la vigilancia y el reconocimiento digital, una de las prioridades es reunir información sobre un objetivo o un grupo de objetivos. Con los progresos del ámbito digital, se puede estar en un terminal de ordenador o en un dispositivo móvil en cualquier parte del mundo, conectarse a la Internet pública y reunir gran cantidad de información sobre variedad de objetivos en cuestión de minutos, todo ello sin ser detectado.
@@ -29,7 +30,7 @@
         p.mb-3 A medida que se centralizan más y más datos, y las herramientas evolucionan para hacer un mejor trabajo de extracción de información clave, la capacidad de utilizar esto para el espionaje crece exponencialmente. Los big data y la informática/analítica son las principales áreas de crecimiento tecnológico en la actualidad, respondiendo a la necesidad de las organizaciones de aprovechar los datos almacenados para obtener resultados específicos.
 
         p.mb-3 Existen muchas herramientas de vigilancia, las que realizan tareas específicas de recopilación de información y otras en las que se puede recopilar y correlacionar información, algunas de ellas se destacan en la siguiente imagen:
-      .col-12.col-lg-5(data-aos="fade-right")
+      .col-12.col-lg-5(data-aos="fade-right").d-none.d-lg-block
           img(src='@/assets/curso/images/tema5/img_2.png'  alt='')
 
     .row.mb-5(data-aos="fade-right")
@@ -38,7 +39,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/images/tema5/info.svg')
+                img(src='@/assets/curso/images/tema5/info2.svg')
             .tarjeta.color-custom-6.p-3(x="26%" y="10%" numero="+")
               .h5.mb-2 La amenaza de Internet
               p.mb-0 Una o varias herramientas que permitan tomar datos desde sitio de internet como páginas web, formularios o servicios de aplicaciones.
