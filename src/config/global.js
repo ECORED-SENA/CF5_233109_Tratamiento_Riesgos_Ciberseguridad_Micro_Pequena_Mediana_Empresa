@@ -177,9 +177,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
+        icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/pdf.pdf',
+        download: 'downloads/233109_CF05_DU.zip',
       },
       {
         icono: 'fas fa-download',
