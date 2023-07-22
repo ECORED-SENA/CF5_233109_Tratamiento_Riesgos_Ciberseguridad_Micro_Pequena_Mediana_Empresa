@@ -318,7 +318,7 @@
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-5
             h3.mb-3 Examen
-            p.mb-0 Comprobación, inspección, revisión, observación, estudio o análisis de uno o más objetos de evaluación para facilitar la comprensión, lograr una aclaración u obtener pruebas. Implica principalmente la revisión de documentos para identificar el diseño, instalación, configuración, funcionamiento y el mantenimiento previstos de los sistemas y la red, y su revisión y referencias cruzadas garantizan la conformidad y la coherencia.
+            p.mb-0 Comprobación, inspección, revisión, observación, estudio o análisis de uno o más objetos de evaluación para facilitar la comprensión, lograr una aclaración u obtener pruebas. Implica principalmente la revisión de documentos para identificar el diseño, instalación, configuración, funcionamiento y el mantenimiento previsto de los sistemas y la red, y su revisión y referencias cruzadas garantizan la conformidad y la coherencia.
 
           .col-12.col-lg-5(data-aos="fade-right")
               img.mt-5(src='@/assets/curso/images/tema2/img_7.png'  alt='')

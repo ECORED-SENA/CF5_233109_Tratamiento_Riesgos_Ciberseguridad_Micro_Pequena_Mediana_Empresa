@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 A Revise el siguiente esquema que a manera de síntesis articula los elementos principales abordados en el desarrollo del componente formativo.
+    p.mb-5 Revise el siguiente esquema que a manera de síntesis articula los elementos principales abordados en el desarrollo del componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

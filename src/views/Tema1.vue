@@ -163,7 +163,9 @@
         figure
           img(src="@/assets/curso/images/tema1/ico_3.svg", alt="alt")
       .col-lg
-        p Las métricas de seguridad que se utilizan hoy en día son insuficientes para el futuro de la seguridad de la información. Es preciso desarrollar enfoques más sofisticados de los procesos de seguridad en general y de la medición y evaluación de esos procesos en particular. Las experiencias de otros sectores como los seguros, la fabricación y el diseño, que se han enfrentado a los mismos retos, ofrecen valiosas lecciones sobre cómo pensar los datos, los procesos y las personas a la hora de abordar la generación de métricas de seguridad.  Observe el siguiente video e identifique aspectos clave en la definición de un programa de métricas de seguridad:
+        p Las métricas de seguridad que se utilizan hoy en día son insuficientes para el futuro de la seguridad de la información. Es preciso desarrollar enfoques más sofisticados de los procesos de seguridad en general y de la medición y evaluación de esos procesos en particular. Las experiencias de otros sectores como los seguros, la fabricación y el diseño, que se han enfrentado a los mismos retos, ofrecen valiosas lecciones sobre cómo pensar los datos, los procesos y las personas a la hora de abordar la generación de métricas de seguridad.
+
+        p Observe el siguiente video e identifique aspectos clave en la definición de un programa de métricas de seguridad:
 
     figure
       .video
