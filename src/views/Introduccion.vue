@@ -18,7 +18,7 @@
 
     figure.mb-5
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NGJBT7D2hpQ" title="Evaluación de la ciberseguridad en la organización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z-Yvli-tW4I" title="Evaluación de la ciberseguridad en la organización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       figcaption Video. Evaluación de la ciberseguridad en la organización
 
 
